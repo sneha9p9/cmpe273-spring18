@@ -5,7 +5,6 @@ import json
 
 app = Flask(__name__)
 
-print ("how are you 1")
 result = {}
 @app.route('/', methods=['GET'])
 def hello():
